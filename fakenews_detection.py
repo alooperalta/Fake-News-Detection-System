@@ -32,6 +32,6 @@ def checkNews(txt):
 # In[19]:
 
 
-news = st.text_input('Enter news:')
+news = st.text_area('Enter news:')
 checkNews(news)
 
