@@ -31,6 +31,7 @@ def checkNews(txt):
 
 # In[19]:
 
+st.title('Fake News Detection System')
 
 news = st.text_area('Enter news:')
 checkNews(news)
