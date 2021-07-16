@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[16]:
-
-
 import streamlit as st
 import pickle
 filename = 'fakeNews.pkl'
@@ -14,12 +8,6 @@ pickle_in = open(vectfilename, 'rb')
 loaded_vect = pickle.load(pickle_in)
 
 
-# In[18]:
-
-
-# txt="""Ever get the feeling your life circles the roundabout rather than heads in a straight line toward the intended destination?
-
-# Hillary Clinton remains the big woman on campus in leafy, liberal Wellesley, Massachusetts. Everywhere else votes her most likely to don her inauguration dress for the remainder of her days the way Miss Havisham forever wore that wedding dress."""
 def checkNews(txt):
     if(txt!=''):
         vectTxt = loaded_vect.transform([txt])
@@ -28,8 +16,6 @@ def checkNews(txt):
         else:
             st.write("Authentic News!")
 
-
-# In[19]:
 
 st.title('Fake News Detection System')
 
@@ -105,7 +91,6 @@ def footer():
         image('https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e181828ba9f9e92b6ebc6e7_RGB_Logomark_Color_Light_Bg.png',
               width=px(25), height=px(25)),
         " by imt-02",
-        # link("https://twitter.com/ChristianKlose3", "@ChristianKlose3"),
         br(),
         link("https://github.com/alooperalta/Fake-News-Detection-System", image('https://github.com/alooperalta/Fake-News-Detection-System/blob/main/gitLogo.png?raw=true',height="40px")),
     ]
