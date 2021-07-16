@@ -65,7 +65,7 @@ def layout(*args):
         bottom=0,
         margin=px(0, 0, 0, 0),
         width=percent(100),
-        color="red",
+        color="#F63366",
         text_align="center",
         height="auto",
         opacity=1
@@ -74,8 +74,7 @@ def layout(*args):
     style_hr = styles(
         display="block",
         margin=px(8, 8, "auto", "auto"),
-        border_style="inset",
-        border_width=px(2)
+        border_width=px(1)
     )
 
     body = p()
@@ -105,10 +104,10 @@ def footer():
         "Made in ",
         image('https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e181828ba9f9e92b6ebc6e7_RGB_Logomark_Color_Light_Bg.png',
               width=px(25), height=px(25)),
-        " with ❤️ by imt-02",
+        " by imt-02",
         # link("https://twitter.com/ChristianKlose3", "@ChristianKlose3"),
         br(),
-        link("https://buymeacoffee.com/chrischross", image('https://github.com/alooperalta/Fake-News-Detection-System/blob/main/gitLogo.png')),
+        link("https://github.com/alooperalta/Fake-News-Detection-System", image('https://github.com/alooperalta/Fake-News-Detection-System/blob/main/gitLogo.png?raw=true',height="40px")),
     ]
     layout(*myargs)
 
