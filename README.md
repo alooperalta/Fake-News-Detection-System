@@ -1,9 +1,9 @@
 # Fake-News-Detection-System
 
-An example of an Authentic News:
+## An example of an Authentic News:
 ![image](https://user-images.githubusercontent.com/66703039/127868827-4d4e34ef-b8b3-431d-9498-cb316ba8dfb9.png)
 
-An example of a Fake News:
+## An example of a Fake News:
 ![image](https://user-images.githubusercontent.com/66703039/127868752-60e960eb-1690-4331-bc42-f3dc78906127.png)
 
 
