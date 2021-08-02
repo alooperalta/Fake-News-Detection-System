@@ -1,7 +1,7 @@
 # Fake-News-Detection-System
 
-![image](https://user-images.githubusercontent.com/66703039/127868653-6ff936dc-0b95-411e-8e0e-064a8ecac665.png)
-![image](https://user-images.githubusercontent.com/66703039/127868660-7a50aa1b-eb98-4841-b6a0-1d57564c2aaa.png)
+![image](https://user-images.githubusercontent.com/66703039/127868827-4d4e34ef-b8b3-431d-9498-cb316ba8dfb9.png)
+![image](https://user-images.githubusercontent.com/66703039/127868752-60e960eb-1690-4331-bc42-f3dc78906127.png)
 
 
 The main goal of the project is to analyse news article and determine if it is reliable or not.
